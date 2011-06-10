@@ -7,6 +7,6 @@
     %script{:type=>'text/javascript',:src=>'/js/jquery-ui-1.8.13.custom.min.js'}
     %script{:type=>'text/javascript',:src=>'/js/josesearch.js'}
   %body
-    #content
-      %form{:action=>'/search', :method=>'get'}
+    #search.centered
+      %form.query{:action=>'/search', :method=>'get'}
         %input.query{:name=>'q', :type=>'text', :placeholder=>'What do you want?', :title=>'click to search'}

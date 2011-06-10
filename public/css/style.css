@@ -12,16 +12,36 @@ input.query:focus{
   padding: 1em;
 }
 
-#content {
+#search {
   width: 250px;
   height: 100px;
   position:absolute;
-  top:50%;
-  left:50%;
-  margin-left:-125px;
-  margin-top:-50px;
   text-align:center;
   overflow:visible;
   visibility:visible;
   display:block;
+	-webkit-transition: all 2s ease-in-out;
+	-moz-transition: all 2s ease-in-out;
+	-o-transition: all 2s ease-in-out;
+	-ms-transition: all 2s ease-in-out;
+	transition: all 2s ease-in-out; 
+}
+#search.centered {
+  top:50%;
+  left:50%;
+  margin-left:-125px;
+  margin-top:-50px;
+
+}
+#search.stowed {
+  top:0;
+  left:0;
+  margin-top:0;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+}
+#search.stowed input.query {
+  font-size: 0.8em;
+  padding: 0.5em;
 }
