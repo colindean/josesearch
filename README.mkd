@@ -2,3 +2,6 @@ JoseSearch
 ==========
 
 A demo I'm writing for a friend.
+
+Type some letters to see what happens. Only "brochures" actually works. Type it
+and hit enter.
