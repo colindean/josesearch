@@ -5,3 +5,14 @@ A demo I'm writing for a friend.
 
 Type some letters to see what happens. Only "brochures" actually works. Type it
 and hit enter.
+
+Starting it up
+--------------
+
+You'll need to have Ruby installed. I last tried this with MRI 2.4.0.
+
+    gem install bundler
+    bundle install
+    rackup
+
+And visit [localhost:9292](http://localhost:9292) to see it in action.
